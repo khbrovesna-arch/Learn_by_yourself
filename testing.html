@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Messenger UI</title>
+
+<link rel="stylesheet" href="teasting.css">
+
+<link
+rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+
+<body>
+
+<div class="messenger">
+
+    <!-- Sidebar -->
+
+    <div class="sidebar">
+
+        <div class="header">
+            <h2>Messenger</h2>
+
+            <button>
+                <i class="fa-solid fa-pen"></i>
+            </button>
+        </div>
+
+        <div class="search-box">
+            <input type="text" placeholder="Search messages">
+        </div>
+
+        <div class="chat-list">
+
+            <div class="chat active">
+
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoRoJbMCPRt7bJU_4WhcA6-NjjA11Y_NUPGbqlYKYdb8T_3z9Sef2Rvbg&s=10">
+
+                <div class="chat-info">
+
+                    <h4>John Doe</h4>
+
+                    <p>Are you free today?</p>
+
+                </div>
+
+                <span>10:45</span>
+
+            </div>
+
+            <div class="chat">
+
+                <img src="">
+
+                <div class="chat-info">
+
+                    <h4>Design Team</h4>
+
+                    <p>Meeting starts in 15 mins</p>
+
+                </div>
+
+                <span>09:30</span>
+
+            </div>
+
+            <div class="chat">
+
+                <img src="">
+
+                <div class="chat-info">
+
+                    <h4>Sarah</h4>
+
+                    <p>Thanks ❤️</p>
+
+                </div>
+
+                <span>Yesterday</span>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Chat Window -->
+
+    <div class="chat-window">
+
+        <div class="chat-header">
+
+            <div class="user">
+
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoRoJbMCPRt7bJU_4WhcA6-NjjA11Y_NUPGbqlYKYdb8T_3z9Sef2Rvbg&s=10">
+
+                <div>
+
+                    <h3>John Doe</h3>
+
+                    <p>Online</p>
+
+                </div>
+
+            </div>
+
+            <div class="actions">
+
+                <i class="fa-solid fa-phone"></i>
+
+                <i class="fa-solid fa-video"></i>
+
+                <i class="fa-solid fa-ellipsis"></i>
+
+            </div>
+
+        </div>
+<!-- -------------------chat----------------------------- -->
+ <div>
+     <div id="messages" class="messages">
+
+     </div>
+
+ </div>
+
+        <div class="input-area">
+
+            <button>
+
+                <i class="fa-solid fa-paperclip"></i>
+
+            </button>
+
+            <input id="input_chat" type="text" placeholder="Type a message">
+
+            <button>
+
+                <i id="send" class="fa-solid fa-face-smile"></i>
+
+            </button>
+
+            <button>
+
+                <i class="fa-solid fa-paper-plane"></i>
+
+            </button>
+
+        </div>
+
+    </div>
+
+</div>
+<script src="AI_teasting.js"></script>
+</body>
+</html>
